@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Perdida na floresta</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Clara, ao tentar voltar para casa, percebe que está perdida na floresta e encontra três caminhos misteriosos: Caminho à esquerda: coberto por flores luminosas, com um ar mágico e enigmático. Caminho à direita: marcado por pegadas misteriosas, sugerindo perigo e segredos. Qual caminho ela deve seguirå</p>
+            <button class="btn-proximo" data-proximo="1">à direita</button>
+            <button class="btn-proximo" data-proximo="2">à esquerda</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Clara seguiu o caminho à direita, encontrando uma criatura enorme e feroz perto de um riacho. Então ela decide:</p>
+            <button class="btn-proximo" data-proximo="3">Seguir silenciosamente pelo riacho, evitando a criatura, mas arriscando-se a se perder ainda mais.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Clara seguiu pelo riacho e encontrou uma caverna com um mapa antigo. Agora, ela pode:</p>
+            <button class="btn-proximo" data-proximo="3">Examinar o mapa para tentar encontrar a saída da floresta.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Clara examinou o mapa e encontrou uma trilha que se dividia em duas direções:
+
+                1. Caminho à esquerda: uma trilha estreita que leva a um campo iluminado pela luz da lua.
+                
+                
+                2. Caminho à direita: uma trilha mais ampla, com o som de água corrente, possivelmente um rio ou lago.</p>
+            <button class="btn-proximo" data-proximo="4">à esquerda</button>
+            <button class="btn-proximo" data-proximo="7">à direita</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Clara encontrou uma clareira iluminada pela lua, onde a fada a ajudou a voltar para casa.</p>
+        </div>
+
+
+        <div class="passo" id="passo-7">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Clara seguiu à direita e encontrou o rio, apoś andar a suas margens, ela enconta o caminho de volta para sua casa</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
